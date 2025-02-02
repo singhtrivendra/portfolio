@@ -1,5 +1,8 @@
-import React from 'react';
+import mealapp from "../assests/meal_app.png"
+import contactform from "../assests/images.jpg"
+import donor from "../assests/donor2.png"
 import ProjectCard from './ProjectCard';
+import fpo from "../assests/download.png"
 
 export default function Projects() {
   const projects = [
@@ -25,7 +28,7 @@ export default function Projects() {
       tech: ["Flutter", "Android", "Geolocation","image_picker"],
       github: "https://github.com/singhtrivendra/contact_form_app",
       live: "#",
-      image: "src/images.jpg",
+      image: contactform,
     },
     {
       title: "Meal App",
@@ -33,7 +36,7 @@ export default function Projects() {
       tech: ["Flutter", "Android", "Fultter animation"],
       github: "https://github.com/singhtrivendra/Recipes_app",
       live: "#",
-      image: "src/meal_app.jpg",
+      image: mealapp,
     },
     {
       title: "Blood Donor App",
@@ -41,7 +44,7 @@ export default function Projects() {
       tech: ["Flutter", "Android", "Firebase"],
       github: "https://github.com/singhtrivendra/donorconnect",
       live: "#",
-      image: "src/donor2.png",
+      image: donor,
     },
     {
       title: "FPO for farmers and traders",
@@ -49,7 +52,7 @@ export default function Projects() {
       tech: ["HTML", "CSS"],
       github: "https://github.com/singhtrivendra/FPO",
       live: "https://singhtrivendra.github.io/PROJECT-2/",
-      image: "src/download.png",
+      image: fpo,
     }
   ];
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Smartphone, BookOpen, Code, User } from 'lucide-react';
+import about from "../assests/about_img.jpg"
 
 export default function About() {
   const [imageError, setImageError] = useState(false);
@@ -18,7 +19,7 @@ export default function About() {
                 </div>
               ) : (
                 <img
-                  src="src\about_img.jpg"
+                  src={about}
                   alt="Trivendra Singh"
                   className="relative rounded-lg shadow-lg w-full h-[400px] object-cover"
                   onError={() => setImageError(true)}
