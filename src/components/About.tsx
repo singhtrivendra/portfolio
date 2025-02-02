@@ -49,10 +49,10 @@ export default function About() {
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg transform hover:scale-105 transition duration-300">
               <div className="flex items-center space-x-3 mb-3">
                 <Code className="text-blue-600 dark:text-blue-400" />
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Tech Stack</h3>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Technical	Skills</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['Flutter', 'Dart', 'Android', 'React', 'JavaScript', 'TypeScript'].map((tech, index) => (
+                {['DSA', 'OOPs', 'UI/UX', 'C++', 'JavaScript','Java'].map((tech, index) => (
                   <span 
                     key={index} 
                     className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-3 py-1 rounded-full text-sm transition-colors duration-300 hover:bg-blue-200 dark:hover:bg-blue-800"
@@ -62,6 +62,23 @@ export default function About() {
                 ))}
               </div>
             </div>
+            <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg transform hover:scale-105 transition duration-300">
+              <div className="flex items-center space-x-3 mb-3">
+                <Code className="text-blue-600 dark:text-blue-400" />
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Tech Stack</h3>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {['MongoDb','Express','React','NodeJs' , 'TypeScript','Flutter', 'Dart', 'Android',].map((tech, index) => (
+                  <span 
+                    key={index} 
+                    className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-3 py-1 rounded-full text-sm transition-colors duration-300 hover:bg-blue-200 dark:hover:bg-blue-800"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
