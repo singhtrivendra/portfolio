@@ -53,7 +53,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
             <Github size={20} className="mr-1" />
             Code
           </a>
-          <a 
+          {/* <a 
             href={live} 
             className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
             target="_blank"
@@ -61,7 +61,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
           >
             <ExternalLink size={20} className="mr-1" />
             Live Demo
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
