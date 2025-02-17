@@ -3,17 +3,19 @@ import contactform from "../assests/images.jpg"
 import donor from "../assests/donor2.png"
 import ProjectCard from './ProjectCard';
 import fpo from "../assests/download.png"
+import Brainly from "../assests/Brainly.png"
 
 export default function Projects() {
   const projects = [
     {
-      title: "Flutter E-Commerce App",
-      description: "A modern e-commerce application with clean UI and smooth animations",
-      tech: ["Flutter", "Dart", "Firebase"],
+      title: "Your Digital Brain",
+      description: "A full-stack React & TypeScript app for capturing, organizing, and accessing digital knowledge seamlessly.",
+      tech: ["React", "TypeScript", "Node.js", "Express","MongoDB","Tailwind CSS"],
       github: "https://github.com/singhtrivendra/Yathaavat",
-      live: "#",
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1974",
+      live: "https://think-tank-iu9y.vercel.app/",
+      image: Brainly,
     },
+   
     {
       title: "Portfolio Website",
       description: "Personal portfolio built with React and modern web technologies",
@@ -21,6 +23,14 @@ export default function Projects() {
       github: "#",
       live: "#",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
+    },
+    {
+      title: "Flutter E-Commerce App",
+      description: "A modern e-commerce application with clean UI and smooth animations",
+      tech: ["Flutter", "Dart", "Firebase"],
+      github: "https://github.com/singhtrivendra/Yathaavat",
+      live: "",
+      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1974",
     },
     {
       title: "contact Form App",

@@ -31,10 +31,10 @@ export default function About() {
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg transform hover:scale-105 transition duration-300">
               <div className="flex items-center space-x-3 mb-3">
                 <Smartphone className="text-blue-600 dark:text-blue-400" />
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Android Developer</h3>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Software Developer</h3>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                Passionate about creating intuitive and efficient mobile applications using Flutter and modern Android development practices.
+              Engineer enthusiastic about building awesome products! 
               </p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg transform hover:scale-105 transition duration-300">

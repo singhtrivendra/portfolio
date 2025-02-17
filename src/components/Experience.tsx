@@ -16,8 +16,10 @@ export default function Experience() {
             <p className="text-gray-600">1 Month Internship</p>
             <ul className="list-disc ml-4 mt-2 text-gray-600">
               <li>Worked on frontend development projects</li>
-              <li>Collaborated with team members on various assignments</li>
-              <li>Gained practical experience in software development lifecycle</li>
+              <li>Developed	RESTful	APIs	using Node.js, Express, and MongoDB, adhering to REST principles to create a scalable and
+              maintainable backend.</li>
+              <li> Created	a	bulk	email	sender to improve operational efficiency, streamlining mass communication processes and reducing
+              the time and effort needed to send emails to large groups.</li>
             </ul>
           </div>
         </div>

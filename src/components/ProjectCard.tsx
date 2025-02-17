@@ -43,7 +43,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
             </span>
           ))}
         </div>
-        <div className="flex space-x-4">
+        <div className="mt-auto flex space-x-4 justify-between ">
           <a 
             href={github} 
             className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
@@ -53,7 +53,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
             <Github size={20} className="mr-1" />
             Code
           </a>
-          {/* <a 
+          <a 
             href={live} 
             className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
             target="_blank"
@@ -61,7 +61,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
           >
             <ExternalLink size={20} className="mr-1" />
             Live Demo
-          </a> */}
+          </a>
         </div>
       </div>
     </div>
