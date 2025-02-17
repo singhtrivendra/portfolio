@@ -11,7 +11,7 @@ export default function Projects() {
       title: "Your Digital Brain",
       description: "A full-stack React & TypeScript app for capturing, organizing, and accessing digital knowledge seamlessly.",
       tech: ["React", "TypeScript", "Node.js", "Express","MongoDB","Tailwind CSS"],
-      github: "https://github.com/singhtrivendra/Yathaavat",
+      github: "https://github.com/singhtrivendra/think_tank",
       live: "https://think-tank-iu9y.vercel.app/",
       image: Brainly,
     },
