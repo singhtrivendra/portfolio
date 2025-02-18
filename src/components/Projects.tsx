@@ -14,6 +14,7 @@ export default function Projects() {
       github: "https://github.com/singhtrivendra/think_tank",
       live: "https://think-tank-iu9y.vercel.app/",
       image: Brainly,
+      isLive:true
     },
    
     {
@@ -21,7 +22,8 @@ export default function Projects() {
       description: "Personal portfolio built with React and modern web technologies",
       tech: ["React", "Tailwind CSS", "TypeScript"],
       github: "#",
-      live: "#",
+      live:"#",
+      isLive:true,
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
     },
     {
@@ -29,7 +31,7 @@ export default function Projects() {
       description: "A modern e-commerce application with clean UI and smooth animations",
       tech: ["Flutter", "Dart", "Firebase"],
       github: "https://github.com/singhtrivendra/Yathaavat",
-      live: "",
+      isLive:false,
       image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1974",
     },
     {
@@ -37,7 +39,7 @@ export default function Projects() {
       description: "Android application for picking image and location",
       tech: ["Flutter", "Android", "Geolocation","image_picker"],
       github: "https://github.com/singhtrivendra/contact_form_app",
-      live: "#",
+      isLive:false,
       image: contactform,
     },
     {
@@ -45,7 +47,7 @@ export default function Projects() {
       description: "Android application for meal recipes and filters",
       tech: ["Flutter", "Android", "Fultter animation"],
       github: "https://github.com/singhtrivendra/Recipes_app",
-      live: "#",
+      isLive:false,
       image: mealapp,
     },
     {
@@ -53,7 +55,7 @@ export default function Projects() {
       description: "DonorConnect, an application designed to connect donors and organizations for life-saving contributions.",
       tech: ["Flutter", "Android", "Firebase"],
       github: "https://github.com/singhtrivendra/donorconnect",
-      live: "#",
+      isLive:false,
       image: donor,
     },
     {
@@ -61,7 +63,7 @@ export default function Projects() {
       description: "Web  UI serves as a valuable resource for farmers seeking to join FPOs ",
       tech: ["HTML", "CSS"],
       github: "https://github.com/singhtrivendra/FPO",
-      live: "https://singhtrivendra.github.io/PROJECT-2/",
+      isLive:false,
       image: fpo,
     }
   ];
@@ -72,7 +74,7 @@ export default function Projects() {
         <h2 className="text-3xl font-bold mb-8 text-center animate-fadeIn">Projects</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} delay={index * 0.2} />
+            <ProjectCard key={index} {...project} delay={index * 0.2}/>
           ))}
         </div>
       </div>

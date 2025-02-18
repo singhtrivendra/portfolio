@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
 interface ProjectCardProps {
@@ -6,15 +5,17 @@ interface ProjectCardProps {
   description: string;
   tech: string[];
   github: string;
-  live: string;
+  live?: string;
   image: string;
   delay: number;
+  isLive:Boolean
 }
 
-export default function ProjectCard({ title, description, tech, github, live, image, delay }: ProjectCardProps) {
+export default function ProjectCard({ title, description, tech, github, live, image, delay ,isLive }: ProjectCardProps) {
   return (
+
     <div 
-      className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden animate-fadeIn transform hover:scale-105 transition-all duration-500 hover:shadow-2xl"
+      className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden animate-fadeIn transform hover:scale-105 transition-all duration-500 relative hover:shadow-2xl"
       style={{ animationDelay: `${delay}s` }}
     >
       <div className="relative overflow-hidden group h-48">
@@ -33,7 +34,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
       <div className="p-6 dark:text-white">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-8">
           {tech.map((item, i) => (
             <span 
               key={i} 
@@ -43,7 +44,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
             </span>
           ))}
         </div>
-        <div className="mt-auto flex space-x-4 justify-between ">
+        <div className="mt-auto fixed bottom-3 flex space-x-36 ">
           <a 
             href={github} 
             className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
@@ -53,7 +54,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
             <Github size={20} className="mr-1" />
             Code
           </a>
-          <a 
+          {isLive ? <a 
             href={live} 
             className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
             target="_blank"
@@ -61,7 +62,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
           >
             <ExternalLink size={20} className="mr-1" />
             Live Demo
-          </a>
+          </a>: <div></div>}
         </div>
       </div>
     </div>
