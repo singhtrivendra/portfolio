@@ -4,9 +4,21 @@ import donor from "../assests/donor2.png"
 import ProjectCard from './ProjectCard';
 import fpo from "../assests/download.png"
 import Brainly from "../assests/Brainly.png"
+import ChatAppImage from "../assests/chatapp.png"
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Real-Time Chat App",
+      description: "A WebSocket-based real-time chat application that enables instant messaging between users. Built with React and TypeScript, featuring a Node.js & Express backend, MongoDB for persistent storage, and a responsive UI using Tailwind CSS.",
+      tech: ["React", "TypeScript", "WebSockets", "Node.js", "Tailwind CSS"],
+      github: "https://github.com/singhtrivendra/Chat_app",
+      live: "https://week-17-2-7mkj.vercel.app/",
+      image: ChatAppImage,
+      isLive: true
+    },
+    
+
     {
       title: "Your Digital Brain",
       description: "A full-stack React & TypeScript app for capturing, organizing, and accessing digital knowledge seamlessly.",
