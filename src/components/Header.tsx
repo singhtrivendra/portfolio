@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code } from 'lucide-react';
 
 export default function Header() {

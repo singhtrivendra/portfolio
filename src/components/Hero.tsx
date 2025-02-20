@@ -13,7 +13,7 @@ export default function Hero() {
             Hi, I'm Trivendra Singh
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fadeIn" style={{animationDelay: '0.2s'}}>
-            Android Developer & Software Engineer
+          Software Developer
           </p>
           <div className="animate-fadeIn" style={{animationDelay: '0.4s'}}>
             <a 
