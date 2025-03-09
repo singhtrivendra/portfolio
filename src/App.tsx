@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -9,6 +9,18 @@ import { ThemeProvider } from './context/ThemeContext';
 import './styles/animations.css';
 
 function App() {
+  const [visitorCount, setVisitorCount] = useState(0);
+
+  useEffect(() => {
+    // Retrieve the count from localStorage and ensure it is a number
+    const storedCount = localStorage.getItem('visitorCount');
+    let count = storedCount ? parseInt(storedCount, 10) : 0; // Default to 0 if null
+
+    count += 1; // Increment count
+    localStorage.setItem('visitorCount', count.toString()); // Store it back
+    setVisitorCount(count);
+  }, []);
+
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
@@ -22,6 +34,7 @@ function App() {
         <footer className="bg-gray-800 dark:bg-gray-950 text-white py-6">
           <div className="container mx-auto px-4 text-center">
             <p>© 2024 Trivendra Singh. All rights reserved.</p>
+            <p>No of Visitors : {visitorCount}</p>
           </div>
         </footer>
         <ThemeToggle />
