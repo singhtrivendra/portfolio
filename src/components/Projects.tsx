@@ -5,9 +5,19 @@ import ProjectCard from './ProjectCard';
 import fpo from "../assests/download.png"
 import Brainly from "../assests/Brainly.png"
 import ChatAppImage from "../assests/chatapp.png"
+import CareerCoachImage from "../assests/CareerCoachImage.png"
 
 export default function Projects() {
   const projects = [
+    {
+      title: "CareerCoach ",
+      description: "CareerCoach is an  AI-powered guide. Whether you're looking to advance in tech, healthcare, business, or other fields, our platform provides personalized insights, interview preparation, and skill development recommendations.",
+      tech: ["React", "TypeScript", "Express.js", "Node.js", "Tailwind CSS","MongoDb"],
+      github: "https://github.com/singhtrivendra/CareerCoach-FE",
+      live: "https://career-coach-fe.vercel.app/#/",
+      image: CareerCoachImage,
+      isLive: true
+    },
     {
       title: "Real-Time Chat App",
       description: "A WebSocket-based real-time chat application that enables instant messaging between users. Built with React and TypeScript, featuring a Node.js & Express backend, MongoDB for persistent storage, and a responsive UI using Tailwind CSS.",
