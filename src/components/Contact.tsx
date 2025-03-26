@@ -35,7 +35,7 @@ export default function Contact() {
         </div>
         <div className="text-center">
           <a
-            href="https://drive.google.com/file/d/1yhj_75lYeDlWyEmUSqiRbaNSgJsqo5sv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JbmlaaYdwy1DSq_0CUTUn02q9AMebq2a/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
