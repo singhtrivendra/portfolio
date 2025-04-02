@@ -6,9 +6,21 @@ import fpo from "../assests/download.png"
 import Brainly from "../assests/Brainly.png"
 import ChatAppImage from "../assests/chatapp.png"
 import CareerCoachImage from "../assests/CareerCoachImage.png"
+import Finace_app from "../assests/home.jpg"
 
 export default function Projects() {
   const projects = [
+    
+    {
+      title: "Finance Tracker",
+      description: "A comprehensive finance tracker app that helps users efficiently manage their expenses and income. Built with Flutter for a seamless UI experience, Firebase for cloud-based services, and SQLite/Hive for offline data storage. The app supports secure authentication, real-time synchronization, and state management for optimized performance.",
+      tech: ["Flutter", "Firebase", "FCM", "SQLite", "Hive", "Provider"],
+      github: "https://github.com/singhtrivendra/CipherSchools-Flutter-Assignment",
+      live: "",
+      image: Finace_app,
+      isLive: false,
+    }
+    ,
     {
       title: "CareerCoach ",
       description: "CareerCoach is an  AI-powered guide. Whether you're looking to advance in tech, healthcare, business, or other fields, our platform provides personalized insights, interview preparation, and skill development recommendations.",
@@ -56,14 +68,14 @@ export default function Projects() {
       isLive:false,
       image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1974",
     },
-    {
-      title: "contact Form App",
-      description: "Android application for picking image and location",
-      tech: ["Flutter", "Android", "Geolocation","image_picker"],
-      github: "https://github.com/singhtrivendra/contact_form_app",
-      isLive:false,
-      image: contactform,
-    },
+    // {
+    //   title: "contact Form App",
+    //   description: "Android application for picking image and location",
+    //   tech: ["Flutter", "Android", "Geolocation","image_picker"],
+    //   github: "https://github.com/singhtrivendra/contact_form_app",
+    //   isLive:false,
+    //   image: contactform,
+    // },
     {
       title: "Meal App",
       description: "Android application for meal recipes and filters",
@@ -80,14 +92,14 @@ export default function Projects() {
       isLive:false,
       image: donor,
     },
-    {
-      title: "FPO for farmers and traders",
-      description: "Web  UI serves as a valuable resource for farmers seeking to join FPOs ",
-      tech: ["HTML", "CSS"],
-      github: "https://github.com/singhtrivendra/FPO",
-      isLive:false,
-      image: fpo,
-    }
+    // {
+    //   title: "FPO for farmers and traders",
+    //   description: "Web  UI serves as a valuable resource for farmers seeking to join FPOs ",
+    //   tech: ["HTML", "CSS"],
+    //   github: "https://github.com/singhtrivendra/FPO",
+    //   isLive:false,
+    //   image: fpo,
+    // }
   ];
 
   return (
