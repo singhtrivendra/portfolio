@@ -68,14 +68,14 @@ export default function Projects() {
       isLive:false,
       image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1974",
     },
-    // {
-    //   title: "contact Form App",
-    //   description: "Android application for picking image and location",
-    //   tech: ["Flutter", "Android", "Geolocation","image_picker"],
-    //   github: "https://github.com/singhtrivendra/contact_form_app",
-    //   isLive:false,
-    //   image: contactform,
-    // },
+    {
+      title: "contact Form App",
+      description: "Android application for picking image and location",
+      tech: ["Flutter", "Android", "Geolocation","image_picker"],
+      github: "https://github.com/singhtrivendra/contact_form_app",
+      isLive:false,
+      image: contactform,
+    },
     {
       title: "Meal App",
       description: "Android application for meal recipes and filters",

@@ -38,8 +38,8 @@ export default function ProjectCard({ title, description, tech, github, live, im
           {tech.map((item, i) => (
             <span 
               key={i} 
-              className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 text-sm px-3 py-1 rounded-full transition-colors duration-300 hover:bg-blue-200 dark:hover:bg-blue-800"
-            >
+              className="bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-100 px-3 py-1 rounded-full text-sm transition-colors duration-300 hover:bg-emerald-200 dark:hover:bg-emerald-800"
+              >
               {item}
             </span>
           ))}
@@ -47,7 +47,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
         <div className="mt-auto fixed bottom-3 flex space-x-36 ">
           <a 
             href={github} 
-            className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+            className="flex items-center text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-600 transition-colors duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +56,7 @@ export default function ProjectCard({ title, description, tech, github, live, im
           </a>
           {isLive ? <a 
             href={live} 
-            className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+            className="flex items-center text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >

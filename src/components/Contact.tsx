@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="flex justify-center space-x-6 mb-6">
           <a
             href="mailto:trivendrasingh0711@gmail.com"
-            className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition"
+            className="flex items-center space-x-2 text-gray-600 hover:text-emerald-600 transition"
           >
             <Mail size={24} />
             <span>Email</span>
@@ -18,7 +18,7 @@ export default function Contact() {
             href="https://github.com/singhtrivendra"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition"
+            className="flex items-center space-x-2 text-gray-600 hover:text-emerald-600 transition"
           >
             <Github size={24} />
             <span>GitHub</span>
@@ -27,7 +27,7 @@ export default function Contact() {
             href="https://linkedin.com/in/trivendra-singh-919bb6255/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition"
+            className="flex items-center space-x-2 text-gray-600 hover:text-emerald-600 transition"
           >
             <Linkedin size={24} />
             <span>LinkedIn</span>
@@ -38,7 +38,7 @@ export default function Contact() {
             href="https://drive.google.com/file/d/1JbmlaaYdwy1DSq_0CUTUn02q9AMebq2a/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+            className="inline-flex items-center px-4 py-2 bg-emerald-600 text-white rounded-lg shadow-md hover:bg-emerald-700 transition"
           >
             <Download size={20} className="mr-2" />
             Download Resume

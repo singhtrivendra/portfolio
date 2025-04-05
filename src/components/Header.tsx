@@ -10,10 +10,10 @@ export default function Header() {
             <span className="text-xl font-bold">Trivendra Singh</span>
           </div>
           <div className="hidden md:flex space-x-8">
-            <a href="#about" className="hover:text-blue-400 transition">About</a>
-            <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
-            <a href="#experience" className="hover:text-blue-400 transition">Experience</a>
-            <a href="#contact" className="hover:text-blue-400 transition">Contact</a>
+            <a href="#about" className="hover:text-emerald-400 transition">About</a>
+            <a href="#projects" className="hover:text-emerald-400 transition">Projects</a>
+            <a href="#experience" className="hover:text-emerald-400 transition">Experience</a>
+            <a href="#contact" className="hover:text-emerald-400 transition">Contact</a>
           </div>
         </div>
       </nav>

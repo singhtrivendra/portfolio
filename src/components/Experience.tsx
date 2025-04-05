@@ -5,10 +5,10 @@ export default function Experience() {
   return (
     <section id="experience" className="py-20">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Experience</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-black dark:text-white">Experience</h2>
         <div className="bg-white rounded-lg shadow-lg p-6">
           <div className="flex items-center space-x-2 mb-4">
-            <Building className="text-blue-600" />
+            <Building className="text-emerald-600" />
             <h3 className="text-xl font-semibold">Software Development Intern</h3>
           </div>
           <div className="ml-8">
