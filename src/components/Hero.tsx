@@ -21,7 +21,7 @@ export default function Hero() {
               href="#projects" 
               className="inline-flex items-center px-6 py-3 bg-slate-800 text-white dark:bg-emerald-600 dark:text-slate-100 font-medium hover:bg-slate-700 dark:hover:bg-emerald-500 transition-all duration-300"
             >
-              View Portfolio
+              View My Work
               <ArrowRight className="ml-2" size={18} />
             </a>
           </div>
