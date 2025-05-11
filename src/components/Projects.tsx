@@ -41,7 +41,7 @@ export default function Projects() {
   tech: ["React.js", "Node.js", "Express", "MongoDB", "Tailwind CSS", "VPS (Hostinger)", "REST API"],
   github: "", 
   live: "https://yathaavat.com/",
-  image: YathaavatSite, // Replace with the actual image import
+  image: YathaavatSite, 
   isLive: true,
 }
 ,
