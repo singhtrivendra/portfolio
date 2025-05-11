@@ -85,15 +85,15 @@ export default function Projects() {
       isLive:true
     },
    
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio built with React and modern web technologies",
-      tech: ["React", "Tailwind CSS", "TypeScript"],
-      github: "#",
-      live:"#",
-      isLive:true,
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
-    },
+    // {
+    //   title: "Portfolio Website",
+    //   description: "Personal portfolio built with React and modern web technologies",
+    //   tech: ["React", "Tailwind CSS", "TypeScript"],
+    //   github: "#",
+    //   live:"#",
+    //   isLive:true,
+    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
+    // },
     {
       title: "Flutter E-Commerce App",
       description: "A modern e-commerce application with clean UI and smooth animations",
