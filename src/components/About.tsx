@@ -52,7 +52,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Technical	Skills</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['DSA', 'OOPs', 'UI/UX', 'C++', 'JavaScript','Java'].map((tech, index) => (
+                {['DSA', 'OOPs', 'UI/UX', 'C++', 'JavaScript','TypeScript','Python','SQL', 'Dart'].map((tech, index) => (
                   <span 
                     key={index} 
                     className="bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-100 px-3 py-1 rounded-full text-sm transition-colors duration-300 hover:bg-emerald-200 dark:hover:bg-emerald-800"
@@ -68,7 +68,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Tech Stack</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['MongoDb','Express','React','NodeJs' , 'TypeScript','Flutter', 'Dart', 'Android',].map((tech, index) => (
+                {['React','Express','NodeJs','MongoDb','MySQL','PostgreSQL','Firebase' ,' Next.js','Flutter','Android','Docker','PgAdmin'].map((tech, index) => (
                   <span 
                     key={index} 
                     className="bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-100 px-3 py-1 rounded-full text-sm transition-colors duration-300 hover:bg-emerald-200 dark:hover:bg-emerald-800"
