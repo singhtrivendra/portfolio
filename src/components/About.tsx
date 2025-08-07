@@ -43,7 +43,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Education</h3>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                3rd year B.Tech student in Electronics and Communication Engineering at UIET, Panjab University Chandigarh
+                Final year B.Tech student in Electronics and Communication Engineering at UIET, Panjab University Chandigarh
               </p>
             </div>
             <div className="p-6 bg-gray-50 dark:bg-gray-800 rounded-lg transform hover:scale-105 transition duration-300">
