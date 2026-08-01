@@ -1,11 +1,6 @@
 import mealapp from "../assests/meal_app.png";
-import contactform from "../assests/images.jpg";
-import donor from "../assests/donor2.png";
 import ProjectCard from "./ProjectCard";
-// import fpo from "../assests/download.png"
-import Brainly from "../assests/Brainly.png";
 import ChatAppImage from "../assests/chatapp.png";
-import CareerCoachImage from "../assests/CareerCoachImage.png";
 import Finace_app from "../assests/home.jpg";
 import PeopleBloodApp from "../assests/PeopleBloodApp.jpg";
 import SMG_app from "../assests/SMG_app.jpg";
@@ -32,7 +27,8 @@ export default function Projects() {
   github: "https://github.com/singhtrivendra/consciousapp-client",
   live: "https://consciousapp-client.vercel.app",
   image: ConsciousAI,
-  isLive: true
+  isLive: true,
+  featured: true,
 }
 ,
 
@@ -183,14 +179,17 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center animate-fadeIn">
-          Projects
-        </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+    <section id="projects" className="py-24 bg-white dark:bg-slate-950 transition-colors duration-300">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="text-center mb-14 animate-fadeIn">
+          <p className="text-emerald-600 dark:text-emerald-400 font-medium tracking-wide uppercase text-sm mb-2">
+            Selected work
+          </p>
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">Projects</h2>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} delay={index * 0.2} />
+            <ProjectCard key={index} {...project} delay={index * 0.15} />
           ))}
         </div>
       </div>
