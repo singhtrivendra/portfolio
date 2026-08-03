@@ -23,7 +23,7 @@ const CONTACT_LINKS = [
     icon: Linkedin,
     label: 'LinkedIn',
     value: 'linkedin.com/in/trivendra-singh',
-    href: 'https://linkedin.com/in/trivendra-singh',
+    href: 'https://www.linkedin.com/in/trivendra-singh-919bb6255/',
   },
 ];
 
