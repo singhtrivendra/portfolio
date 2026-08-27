@@ -179,13 +179,13 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-24 bg-white dark:bg-slate-950 transition-colors duration-300">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="text-center mb-14 animate-fadeIn">
-          <p className="text-emerald-600 dark:text-emerald-400 font-medium tracking-wide uppercase text-sm mb-2">
+    <section id="projects" className="py-24 border-b border-neutral-200">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
+        <div className="mb-12 animate-fadeIn">
+          <p className="text-neutral-400 font-medium tracking-wide uppercase text-xs mb-2">
             Selected work
           </p>
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">Projects</h2>
+          <h2 className="font-display text-3xl font-bold text-neutral-900">Projects</h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
