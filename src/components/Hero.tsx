@@ -77,7 +77,7 @@ export default function Hero() {
           <div className="mt-8 flex items-center gap-4">
             {[
               { icon: Github, href: 'https://github.com/singhtrivendra', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com/in/trivendra-singh', label: 'LinkedIn' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/trivendra-singh-919bb6255/', label: 'LinkedIn' },
               { icon: Mail, href: 'mailto:trivendrasingh0711@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a
